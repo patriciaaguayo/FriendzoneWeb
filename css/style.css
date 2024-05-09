@@ -1,0 +1,56 @@
+
+
+
+body{
+    background-color: rgb(165, 152, 152);
+}
+
+/* Navbar */
+
+.Logo{
+    height: 70px;
+}
+
+.navbar{
+    font-size: 20px;
+}
+
+/* Footer */
+
+a{
+    color: rgb(0, 0, 0);
+}
+
+.CF{
+    padding: 2%;
+    
+}
+
+.footer2 {
+    background-color: #c5b19c;
+    color: rgb(0, 0, 0);
+}
+
+.textoFooter{
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.opcionesF{
+    text-align: center;
+}
+
+.contacto{
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.LogoFoot{
+    height: 150px;
+}
+
+#filaLogo{
+    border-top: 1px solid rgb(83, 78, 66);
+    margin-left: 2%;
+    margin-right: 2%;
+}
