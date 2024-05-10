@@ -3,6 +3,7 @@
 
 body{
     background-color: rgb(165, 152, 152);
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 /* Navbar */
@@ -100,3 +101,55 @@ a{
     color: black;
     font-size: 20px;
 }*/
+
+/* Sobre nosotros */
+
+.prueba{
+
+   /* background: linear-gradient(90deg, rgb(66, 136, 9) 20%, rgb(134, 178, 47) 50%, rgb(207, 253, 115) 100%);*/
+    padding: 2%; 
+    background-color: white;
+}
+
+.prueba2{
+    background: linear-gradient(90deg, rgb(60, 53, 53) 20%, rgb(121, 103, 103) 50%, rgb(163, 143, 143) 100%);
+}
+
+.subSecciones2{
+    margin-top: 1%;
+}
+
+.fotoS{
+    border-radius: 5%;
+}
+
+.infoS{
+   /* background-color: rgba(0, 0, 0, 0.5);*/
+    font-size: 16px;
+    padding: 4%;
+    margin-top: 8%;
+    margin-right: 5%;
+    text-align: justify;
+}
+
+.textoInfoNosotros{
+    text-align: justify;
+   
+}
+
+.tNosotros{
+   text-align: justify;
+}
+
+.info2S{
+     font-size: 16px;
+     padding: 4%;
+     margin-left: 8%;
+      color:white;
+ }
+
+ .foto2S{
+    border-radius: 5%;
+}
+
+
