@@ -67,6 +67,32 @@ a{
     margin-right: 50%;
 }
 
+/* PÁGINA INICIO */
+
+/* Sección de fotos y videos */
+
+#imagenes{
+    padding-top: 3%;
+}
+
+.card-text{
+    text-align: justify;
+}
+
+/* Carrousel de fotos */
+
+.carousel-inner{
+    background-color: rgb(246, 216, 185);
+}
+
+.visually-hidden{
+    color: black;
+}
+
+.container-fluid{
+    color: black;
+}
+
 /* PÁGINA CONTACTO */
 
 /* Sección de Acerca de */ 
@@ -162,5 +188,9 @@ a{
  .foto2S{
     border-radius: 5%;
 }
+
+/* PÁGINA SECCIONES */
+
+
 
 
