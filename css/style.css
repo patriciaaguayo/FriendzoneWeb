@@ -48,12 +48,23 @@ a{
 
 .LogoFoot{
     height: 150px;
+    border-radius:5%;
 }
 
 #filaLogo{
     border-top: 1px solid rgb(83, 78, 66);
     margin-left: 2%;
     margin-right: 2%;
+}
+
+.redes{
+    height: 50px;
+    margin-left: 50%;
+}
+
+.redes2{
+    height: 50px;
+    margin-right: 50%;
 }
 
 /* PÁGINA CONTACTO */
