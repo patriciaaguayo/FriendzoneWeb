@@ -69,6 +69,47 @@ a{
 
 /* PÁGINA INICIO */
 
+/* Portada */
+
+.tituloPortada{
+    text-align: center;
+    font-size: 40px;
+}
+
+.textoPie{
+    margin-left: 10%;
+    text-align: justify;
+}
+
+.Portada{
+    text-align: justify;
+    position: relative;
+    z-index: 1;
+}
+
+.apartadoPortada{
+    background-image: url('../img/amigosEspalda3.png');
+    background-size: cover;
+    position: relative;
+    padding: 15%;
+}
+
+.fondo-opacoP {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(56, 56, 56, 0.5); /* Opacidad del fondo */
+}
+
+.contenidoPortada{
+   /* background-color: rgba(255, 255, 255, 0.1);*/
+    padding: 2%;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
 /* Sección de fotos y videos */
 
 #imagenes{
