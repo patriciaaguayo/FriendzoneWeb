@@ -279,6 +279,96 @@ a{
 
 /* Nuestras redes y contacto */
 
+.tituloRedes{
+    text-align: center;
+}
+
+.Redes{
+    text-align: justify;
+    position: relative;
+    z-index: 1;
+}
+
+.apartadoRedes{
+    background-image: url('../img/recorteMoviles2.png');
+    background-size: cover;
+    position: relative;
+    padding: 2%;
+}
+
+.fondo-opacoRedes {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(50, 50, 50, 0.6); /* Opacidad del fondo */
+}
+
+.contenidoRedes{
+    /*background-color: rgba(255, 255, 255, 0.7);*/
+    padding: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: rgb(251, 251, 251);
+    font-size: 20px;
+}
+
+/* Expliación de Instagram y Discord */
+
+.prueba4{
+   /* background: linear-gradient(90deg, rgb(60, 53, 53) 20%, rgb(121, 103, 103) 50%, rgb(163, 143, 143) 100%);*/
+   background-color: rgb(246, 216, 185);
+    padding: 2%; 
+    color: rgb(0, 0, 0);
+}
+
+.tituloCuriosidades{
+    text-align: center;
+}
+
+.subSeccionesRedes{
+    margin-top: 1%;
+}
+
+.fotoR{
+    border-radius: 5%;
+}
+
+.infoR{
+   /* background-color: rgba(0, 0, 0, 0.5);*/
+    color: rgb(153, 0, 0);
+    font-size: 16px;
+    padding: 4%;
+    margin-top: 8%;
+    margin-right: 5%;
+}
+
+.textoInfoR{
+    text-align: justify;
+    color: black;
+}
+
+.tRedes{
+    font-size: 20px;
+    color: black;
+}
+
+.prueba3{
+    background-color: white;
+    padding: 2%; 
+}
+
+.info2R{
+     font-size: 16px;
+     padding: 4%;
+     margin-left: 8%;
+     background-color: rgba(145, 113, 89, 0.8);
+ }
+
+ .foto2R{
+    border-radius: 5%;
+}
 
 
 /* PÁGINA SECCIONES */
