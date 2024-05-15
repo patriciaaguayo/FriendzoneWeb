@@ -373,6 +373,23 @@ a{
 
 /* PÁGINA SECCIONES */
 
+/* Sección de Acerca de */ 
+
+.tituloAcerca{
+    text-align: justify;
+    color: white;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.apartadoSecciones{
+    background-image: url('../img/recorteAmigos.png');
+    background-size: cover;
+    position: relative;
+    padding: 2%;
+    height: 100px;
+}
 
 
 
