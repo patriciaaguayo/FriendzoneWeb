@@ -633,16 +633,6 @@ a{
     align-items: center; /* Centra los elementos verticalmente */
 }
 
-/*.botonRedSocial {
-    display: inline-block;
-    width: 200px;
-    height:70px;
-    margin-right: 40px;
-    margin-left: 40px;
-    background-size: cover;
-    transition: transform 0.3s ease;
-}*/
-
 .botonRedSocial {
     display: inline-block;
     width: 200px;
