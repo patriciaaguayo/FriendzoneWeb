@@ -544,6 +544,21 @@ a{
     font-size: 20px;
 }
 
+/* Titulo Eventos */
+
+.Eventos{
+    background: linear-gradient(90deg, rgb(60, 53, 53) 20%, rgb(121, 103, 103) 50%, rgb(163, 143, 143) 100%);
+    text-align: center; /* Centrar el texto dentro del contenedor */
+    padding: 1%; /* Agregar relleno al contenedor */
+}
+
+.tEventos{
+    display: inline-block;
+    font-size: 30px;
+    color: white;
+    margin-top: 2%;
+}
+
 /* Frase final */
 
 .tituloGancho{
