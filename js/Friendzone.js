@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Agregar evento de mouseover a cada botón
     botonesRedesSociales.forEach(boton => {
         boton.addEventListener('mouseover', () => {
-            boton.style.transform = 'scale(1.4)';
+            boton.style.transform = 'scale(1.2)';
         });
     });
 

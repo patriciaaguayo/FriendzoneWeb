@@ -391,6 +391,78 @@ a{
     height: 100px;
 }
 
+/* Desarrollo de las diferentes secciones */
+
+.subSeccionesFriendzone{
+     margin-top: 1%;
+ }
+
+ /* LIBROS */
+
+.libros{
+    background-color: rgb(246, 216, 185);
+     padding: 2%; 
+     color: rgb(0, 0, 0);
+ }
+ 
+ .fotoLibros{
+     border-radius: 5%;
+ }
+ 
+ .infoLibros{
+     font-size: 16px;
+     padding: 4%;
+     margin-top: 0%;
+     margin-right: 5%;
+ }
+ 
+ .textoInfoLibros{
+     text-align: justify;
+     color: black;
+ }
+ 
+ .tLibros{
+     font-size: 20px;
+     color: black;
+ }
+
+
+ /* PELÍCULAS */
+ 
+ .tPeliculas{
+    font-size: 20px;
+    color: black;
+}
+
+ .peliculas{
+     background-color: white;
+     padding: 2%; 
+ }
+ 
+ .infoPeliculas{
+      font-size: 16px;
+      padding: 10%;
+      margin-left: 6%;
+      margin-top: 6%;
+      background-color: rgba(196, 160, 133, 0.8);
+  }
+ 
+  .fotoP{
+     border-radius: 5%;
+ }
+
+ .textoInfoPeliculas{
+    text-align: justify;
+    margin-left: 4%;
+    margin-right: 4%;
+ }
+
+ /* DEPORTES */
+
+ /* JUEGOS */
+
+ /* ARTE */
+
 
 /* Frase final */
 
@@ -436,23 +508,35 @@ a{
     align-items: center; /* Centra los elementos verticalmente */
 }
 
+/*.botonRedSocial {
+    display: inline-block;
+    width: 200px;
+    height:70px;
+    margin-right: 40px;
+    margin-left: 40px;
+    background-size: cover;
+    transition: transform 0.3s ease;
+}*/
+
 .botonRedSocial {
     display: inline-block;
-    width: 50px;
-    height: 50px;
-    margin-right: 20px;
-    margin-left: 20px;
-    background-size: cover;
+    width: 200px;
+    height: 70px;
+    margin-right: 40px;
+    margin-left: 40px;
+    background-size: contain; /* Ajustar la imagen dentro del contenedor */
+    background-repeat: no-repeat; /* Evitar repetir la imagen */
+    background-position: center; /* Centrar la imagen */
     transition: transform 0.3s ease;
 }
 
 /* Estilos para cada red social */
 .instagram {
-    background-image: url('../img/instagram.png'); /* Ruta a la imagen del botón de Facebook */
+    background-image: url('../img/InstagramPalabra2.png'); /* Ruta a la imagen del botón de Facebook */
 }
 
 .discord {
-    background-image: url('../img/discord.webp'); /* Ruta a la imagen del botón de Twitter */
+    background-image: url('../img/DiscordPalabra.png'); /* Ruta a la imagen del botón de Twitter */
 }
 
 
