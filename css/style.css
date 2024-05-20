@@ -165,6 +165,10 @@ a{
     text-align: justify;
 }
 
+.card {
+    transition: transform 0.3s;
+}
+
 /* Carrousel de fotos */
 
 .carousel-inner{
