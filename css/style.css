@@ -67,6 +67,10 @@ a{
     margin-right: 50%;
 }
 
+.redes, .redes2 {
+    transition: transform 0.3s;
+}
+
 .tituloFooter{
     padding-bottom: 4%;
 }
