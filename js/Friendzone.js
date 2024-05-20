@@ -81,3 +81,13 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+// Para que pase las imágenes del carrousel automáticamente
+
+document.addEventListener('DOMContentLoaded', function() {
+    const myCarousel = document.querySelector('#carouselExampleIndicators');
+    const carousel = new bootstrap.Carousel(myCarousel, {
+        interval: 5000, // Cambia de imagen cada 2 segundos
+        ride: 'carousel'
+    });
+});
