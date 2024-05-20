@@ -176,9 +176,16 @@ a{
 
 /* Eventos */
 
-.tEventos{
+.tEventosPortada{
     font-size: 30px;
     text-align: center;
+}
+
+.infoEventosP{
+    text-align:justify;
+    font-size: 16px;
+    margin-right: 10%;
+    padding: 4%;
 }
 
 /* PÁGINA CONTACTO */
