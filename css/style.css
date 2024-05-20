@@ -380,10 +380,10 @@ a{
 
 .info2R{
      font-size: 16px;
-     padding: 4%;
+     padding: 5%;
      margin-left: 8%;
-     margin-top: 4%;
      background-color: rgba(145, 113, 89, 0.8);
+     border-radius:8%;
  }
 
  .foto2R{
@@ -479,6 +479,7 @@ a{
       margin-left: 6%;
       margin-top: 6%;
       background-color: rgba(196, 160, 133, 0.8);
+      border-radius: 8%;
   }
  
   .fotoP{
