@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-// Para que pase las imágenes del carrousel automáticamente
+// Para que pase las imágenes del carousel automáticamente
 
 document.addEventListener('DOMContentLoaded', function() {
     const myCarousel = document.querySelector('#carouselExampleIndicators');
