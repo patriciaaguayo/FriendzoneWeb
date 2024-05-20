@@ -56,3 +56,28 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
+// Para cambiar el color del texto y quitar el subrayado
+
+document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('.list-inline-item a');
+
+    links.forEach(link => {
+        // Remove underline initially
+        link.style.textDecoration = 'none';
+        link.style.color = 'inherit';
+        link.style.transition = 'color 0.3s, text-decoration 0.3s';
+
+        // Add underline and change color on hover
+        link.addEventListener('mouseenter', function() {
+            link.style.color = 'white';
+            link.style.textDecoration = 'underline';
+        });
+
+        // Remove underline and reset color when not hovering
+        link.addEventListener('mouseleave', function() {
+            link.style.color = 'inherit';
+            link.style.textDecoration = 'none';
+        });
+    });
+});

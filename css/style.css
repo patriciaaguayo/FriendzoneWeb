@@ -80,6 +80,17 @@ a{
     padding-top: 5%;
 }
 
+.list-inline-item a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+.list-inline-item a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
 /* PÁGINA INICIO */
 
 /* Portada */
