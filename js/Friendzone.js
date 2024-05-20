@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
     const myCarousel = document.querySelector('#carouselExampleIndicators');
     const carousel = new bootstrap.Carousel(myCarousel, {
-        interval: 5000, 
+        interval: 4000, 
         ride: 'carousel'
     });
 });
